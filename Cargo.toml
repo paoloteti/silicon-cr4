@@ -1,10 +1,12 @@
 [package]
+authors = [
+    "The Cortex-R Team <cortex-r@teams.rust-embedded.org>",
+    "Paolo Teti <paolo.teti@gmail.com>",
+]
 name = "silicon-cr4"
 version = "0.1.0"
-authors = ["Paolo Teti <paolo.teti@gmail.com>"]
 categories = ["embedded", "hardware-support", "no-std"]
 description = "Workaround for Cortex-R4/R4F silicon errata"
 keywords = ["ARM", "Cortex-R4"]
 edition = "2018"
 
-[dependencies]
