@@ -16,5 +16,7 @@ fn main() {
 
     println!("cargo:rerun-if-changed=bin/armebv7r-none-eabi.a");
     println!("cargo:rerun-if-changed=bin/armv7r-none-eabi.a");
+    println!("cargo:rerun-if-changed=bin/armebv7r-none-eabihf.a");
+    println!("cargo:rerun-if-changed=bin/armv7r-none-eabihf.a");
     println!("cargo:rerun-if-changed=build.rs");
 }
