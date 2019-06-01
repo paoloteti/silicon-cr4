@@ -3,7 +3,7 @@ authors = [
     "The Cortex-R Team <cortex-r@teams.rust-embedded.org>",
     "Paolo Teti <paolo.teti@gmail.com>",
 ]
-name = "silicon-cr4"
+name = "siliconcr4"
 version = "0.1.0"
 categories = ["embedded", "hardware-support", "no-std"]
 description = "Workaround for Cortex-R4/R4F silicon errata"
