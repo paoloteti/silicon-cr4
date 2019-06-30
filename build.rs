@@ -5,7 +5,7 @@ fn main() {
     let target = env::var("TARGET").unwrap();
     let name = env::var("CARGO_PKG_NAME").unwrap();
 
-    if target.starts_with("armv") {
+    if target.starts_with("armv7r") || target.starts_with("armebv7r") {
         fs::copy(
             format!("bin/{}.a", target),
             out_dir.join(format!("lib{}.a", name)),
